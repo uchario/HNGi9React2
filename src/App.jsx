@@ -19,6 +19,7 @@ import metabnb_tiny from './assets/metabnb-tiny.png';
 import opensea_tiny from './assets/opensea_tiny.png';
 import metamask_tiny from './assets/metamask_tiny.png'
 import metamask_text from './assets/metamask_text.png';
+import mbtoken_text from './assets/mbtoken_text.png';
 
 import star from './assets/star.png';
 
@@ -54,7 +55,7 @@ function App() {
       <section className={`${styles['middle-belt']}`}>
         <div>
           <img src={metabnb_tiny} alt='metabnb_tiny'/>
-          <span>MBToken</span>
+          <img src={mbtoken_text} alt='mbtoken_text'/>
         </div>
         <div className={`${styles['metamask']}}`}>
           <img src={metamask_tiny}/>
