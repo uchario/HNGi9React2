@@ -18,6 +18,7 @@ import image15 from './assets/image_15.png';
 import metabnb_tiny from './assets/metabnb-tiny.png';
 import opensea_tiny from './assets/opensea_tiny.png';
 import metamask_tiny from './assets/metamask_tiny.png'
+import metamask_text from './assets/metamask_text.png';
 
 import star from './assets/star.png';
 
@@ -57,7 +58,7 @@ function App() {
         </div>
         <div className={`${styles['metamask']}}`}>
           <img src={metamask_tiny}/>
-          <span>METAMASK</span>
+          <img src={metamask_text} alt='metamask_text'/>
         </div>
         <div className={`${styles['open-sea']}`}>
           <img src={opensea_tiny} alt='opensea_tiny'/>
